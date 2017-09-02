@@ -563,9 +563,9 @@ a:focus {
 .imgB1 {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 100px;
   right: 0;
-  
+  width: 400px;
 
   display: block;
   margin: auto;
