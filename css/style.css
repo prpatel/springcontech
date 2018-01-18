@@ -15,7 +15,7 @@ body {
   color: #444;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #0093ba
+  background-color: #6db33f
 }
 h1,
 h2,
@@ -65,7 +65,7 @@ a:focus {
 }
 .btn-green {
   color: #fff;
-  background-color: #71be3c;
+  background-color: #6db33f;
 }
 .btn-green:hover,
 .btn-green:focus {
@@ -413,6 +413,15 @@ a:focus {
   /*line-height: 10px;*/
 }
 
+.underline-tagline-white {
+  display: inline;
+  text-decoration: none;
+  border-bottom: 8px solid #efefef;
+  padding-bottom: 5px;
+  color: #fff
+  /*line-height: 10px;*/
+}
+
 #about {
   background-color: #efefef;
   border-bottom: solid 1px #e7e7e7;
@@ -420,14 +429,16 @@ a:focus {
 
 #location {
   padding-top: 50px;
-  background-color: #fac552;
+  background-color: #141514;
   border-bottom: solid 1px #e7e7e7;
+  color: #6db33f;
 }
 
 #cfp {
   padding-top: 50px;
-  background-color: #fac552;
+  background-color: #141514;
   border-bottom: solid 1px #e7e7e7;
+  color: #6db33f;
 }
 
 #contact {
