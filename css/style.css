@@ -15,7 +15,11 @@ body {
   color: #444;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #6db33f
+  background-image: url("../img/backdrop.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1,
 h2,
@@ -429,14 +433,16 @@ a:focus {
 
 #location {
   padding-top: 50px;
-  background-color: #141514;
+  /*background-color: #141514;*/
+  background-color: transparent;
   border-bottom: solid 1px #e7e7e7;
   color: #6db33f;
 }
 
 #cfp {
   padding-top: 50px;
-  background-color: #141514;
+  /*background-color: #141514;*/
+  background-color: transparent;
   border-bottom: solid 1px #e7e7e7;
   color: #6db33f;
 }
