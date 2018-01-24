@@ -5,17 +5,21 @@ By: Hasan Alibegic, hasan461@gmail.com
 License: Apache License v2.0
 */
 @font-face {
-  font-family: 'Chrysler';
-  src: url('../fonts/chrysler-condensed.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-   url('../fonts/chrysler-condensed.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  /*font-family: 'Chrysler';*/
+  /*src: url('../fonts/chrysler-condensed.woff') format('woff'), !* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ *!*/
+   /*url('../fonts/chrysler-condensed.ttf') format('truetype'); !* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 *!*/
+  font-family: 'Varela Round', sans-serif;
+
 }
+
+
 
 body {
   font-family: 'Didact Gothic', sans-serif;
   color: #444;
   padding-left: 8px;
   padding-right: 8px;
-  background-image: url("../img/backdrop.png");
+  background-image: url("../img/backdrop.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -190,7 +194,7 @@ a:focus {
 #home h3 {
   margin-top: 20px;
   margin-bottom: 0;
-  font-family: Chrysler
+  font-family: Varela Round'
 }
 #services {
   background-color: #f5f5f5;
@@ -395,9 +399,9 @@ a:focus {
 }
 
 .chrysler {
-  font-family: Chrysler;
+  font-family: 'Varela Round';
   padding-top: 20px;
-  letter-spacing: 10px;
+  /*letter-spacing: 10px;*/
   color: #6db33f;
 }
 
