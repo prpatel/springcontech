@@ -405,6 +405,13 @@ a:focus {
   color: #6db33f;
 }
 
+.chrysler-white {
+  font-family: 'Varela Round';
+  padding-top: 20px;
+  /*letter-spacing: 10px;*/
+  color: #fff;
+}
+
 .underline-tagline {
     display: inline;
     text-decoration: none;
@@ -477,7 +484,7 @@ a:focus {
 
 #featuredSpeakers {
   padding-top: 50px;
-  background-color: #efefef;
+  background-color: #6db33f;
   border-bottom: solid 1px #e7e7e7;
 }
 
