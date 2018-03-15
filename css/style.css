@@ -446,7 +446,7 @@ a:focus {
   padding-top: 50px;
   /*background-color: #141514;*/
   background-color: transparent;
-  border-bottom: solid 1px #e7e7e7;
+  /*border-bottom: solid 1px #e7e7e7;*/
   color: #6db33f;
 }
 
@@ -510,6 +510,13 @@ a:focus {
   background-color: #6db33f;
   border-bottom: solid 1px #e7e7e7;
 }
+
+#sponsors {
+  padding-top: 50px;
+  background-color: #6db33f;
+  border-bottom: solid 1px #e7e7e7;
+}
+
 
 .speaker-image {
   max-width: 100%;
